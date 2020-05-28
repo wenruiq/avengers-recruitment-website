@@ -44,7 +44,7 @@ input[class^='btn-']:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .text-center {
@@ -96,4 +96,12 @@ input[class^='btn-']:hover {
   background: $main-color;
   display: block;
   margin: 0 auto 1rem auto;
+}
+
+.bg {
+  &-dark {
+    background: #000;
+    color: #fff;
+    opacity: 0.75;
+  }
 }

@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Acme', sans-serif;
   line-height: 1.6;
@@ -133,7 +129,6 @@ img {
   &-members {
     background: $members-bg no-repeat center center/cover;
     height: 90vh;
-    position: relative;
 
     .heroes {
       padding: 0 10rem;
@@ -145,6 +140,7 @@ img {
         border-radius: 50%;
         height: 180px;
         width: 180px;
+        border: 3px solid $main-color;
         transition: all 1s;
 
         &:hover {
@@ -154,10 +150,54 @@ img {
       }
     }
   }
-  
+
   // Home Work
-  &-work{
-    
-    
+  &-work {
+    background: $work-bg no-repeat top center/cover;
+    height: 100vh;
+
+    .villains {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 2rem;
+
+      .villain-info {
+        display: grid;
+        grid-template-areas: 'villaingif bio bio bio';
+        grid-gap: 1rem;
+      }
+
+      .villain-gif {
+        grid-area: villaingif;
+        height: 200px;
+        width: 360px;
+      }
+      .bio {
+        grid-area: bio;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-left: 3px solid $main-color;
+
+        h2 {
+          z-index: 10;
+          padding: 1.2rem 0;
+        }
+        p {
+          z-index: 10;
+          padding: 0 5rem;
+          text-align: justify;
+        }
+
+        &::before {
+          content: '';
+          background-color: #000;
+          opacity: 0.65;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
   }
 }

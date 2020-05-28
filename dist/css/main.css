@@ -14,7 +14,7 @@
 
 .btn-main {
   color: #f4f4f4;
-  background-color: #0E2F44; }
+  background-color: #0e2f44; }
 
 .btn-light {
   color: #333;
@@ -32,7 +32,7 @@ input[class^='btn-']:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 1.5rem; }
 
 .text-center {
   text-align: center; }
@@ -70,17 +70,19 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 10rem;
-  background: #0E2F44;
+  background: #0e2f44;
   display: block;
   margin: 0 auto 1rem auto; }
+
+.bg-dark {
+  background: #000;
+  color: #fff;
+  opacity: 0.75; }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-html {
-  scroll-behavior: smooth; }
 
 body {
   font-family: 'Acme', sans-serif;
@@ -164,8 +166,7 @@ img {
 
 #home-members {
   background: url("../img/members.jpg") no-repeat center center/cover;
-  height: 90vh;
-  position: relative; }
+  height: 90vh; }
   #home-members .heroes {
     padding: 0 10rem;
     display: grid;
@@ -175,7 +176,44 @@ img {
       border-radius: 50%;
       height: 180px;
       width: 180px;
+      border: 3px solid #0e2f44;
       transition: all 1s; }
       #home-members .heroes img:hover {
         height: 200px;
         width: 200px; }
+
+#home-work {
+  background: url("../img/work.jpg") no-repeat top center/cover;
+  height: 100vh; }
+  #home-work .villains {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem; }
+    #home-work .villains .villain-info {
+      display: grid;
+      grid-template-areas: 'villaingif bio bio bio';
+      grid-gap: 1rem; }
+    #home-work .villains .villain-gif {
+      grid-area: villaingif;
+      height: 200px;
+      width: 360px; }
+    #home-work .villains .bio {
+      grid-area: bio;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      border-left: 3px solid #0e2f44; }
+      #home-work .villains .bio h2 {
+        z-index: 10;
+        padding: 1.2rem 0; }
+      #home-work .villains .bio p {
+        z-index: 10;
+        padding: 0 5rem;
+        text-align: justify; }
+      #home-work .villains .bio::before {
+        content: '';
+        background-color: #000;
+        opacity: 0.65;
+        position: absolute;
+        height: 100%;
+        width: 100%; }
