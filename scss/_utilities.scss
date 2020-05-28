@@ -44,7 +44,7 @@ input[class^='btn-']:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .text-center {
@@ -68,8 +68,6 @@ input[class^='btn-']:hover {
 }
 
 // Margin
-
-// Padding
 .my {
   &-1 {
     margin: 1rem 0;
@@ -83,4 +81,19 @@ input[class^='btn-']:hover {
   &-4 {
     margin: 4rem 0;
   }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 10rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
 }

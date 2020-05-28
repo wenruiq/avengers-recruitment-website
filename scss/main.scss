@@ -8,8 +8,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Acme', sans-serif;
   line-height: 1.6;
   background: #000;
   color: #fff;
@@ -42,7 +46,7 @@ img {
   align-items: center;
 }
 
-// Main Nav
+// Navbar (Fixed position out of doc flow)
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -89,7 +93,7 @@ img {
 #header {
   // Header Home
   &-home {
-    background: $bg-image no-repeat top center/cover;
+    background: $showcase-bg no-repeat top center/cover;
     height: 100vh;
     position: relative;
 
@@ -120,5 +124,40 @@ img {
     * {
       z-index: 10;
     }
+  }
+}
+
+// Home Sections
+#home {
+  // Home Members
+  &-members {
+    background: $members-bg no-repeat center center/cover;
+    height: 90vh;
+    position: relative;
+
+    .heroes {
+      padding: 0 10rem;
+      display: grid;
+      grid-gap: 5rem;
+      grid-template-columns: repeat(3, 1fr);
+
+      img {
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        transition: all 1s;
+
+        &:hover {
+          height: 200px;
+          width: 200px;
+        }
+      }
+    }
+  }
+  
+  // Home Work
+  &-work{
+    
+    
   }
 }

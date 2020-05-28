@@ -14,7 +14,7 @@
 
 .btn-main {
   color: #f4f4f4;
-  background-color: #696966; }
+  background-color: #0E2F44; }
 
 .btn-light {
   color: #333;
@@ -32,7 +32,7 @@ input[class^='btn-']:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 3rem; }
 
 .text-center {
   text-align: center; }
@@ -61,13 +61,29 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
+.section-title {
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+  text-transform: uppercase; }
+
+.bottom-line {
+  height: 2px;
+  width: 10rem;
+  background: #0E2F44;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Acme', sans-serif;
   line-height: 1.6;
   background: #000;
   color: #fff; }
@@ -145,3 +161,21 @@ img {
       line-height: 1.2; }
   #header-home * {
     z-index: 10; }
+
+#home-members {
+  background: url("../img/members.jpg") no-repeat center center/cover;
+  height: 90vh;
+  position: relative; }
+  #home-members .heroes {
+    padding: 0 10rem;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(3, 1fr); }
+    #home-members .heroes img {
+      border-radius: 50%;
+      height: 180px;
+      width: 180px;
+      transition: all 1s; }
+      #home-members .heroes img:hover {
+        height: 200px;
+        width: 200px; }
