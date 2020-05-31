@@ -138,7 +138,7 @@ img {
       .navbar li a:hover {
         border-color: #ccc; }
       .navbar li a.current {
-        border-color: #ccc; }
+        border-color: #0e2f44; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat top center/cover;
@@ -162,7 +162,7 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
   #header-home * {
-    z-index: 10; }
+    z-index: 99; }
 
 #home-members {
   background: url("../img/members.jpg") no-repeat center center/cover;
@@ -196,7 +196,7 @@ img {
     #home-work .villains .villain-gif {
       grid-area: villaingif;
       height: 200px;
-      width: 360px; }
+      width: 300px; }
     #home-work .villains .bio {
       grid-area: bio;
       display: flex;
@@ -217,3 +217,44 @@ img {
         position: absolute;
         height: 100%;
         width: 100%; }
+
+#home-gallery {
+  background: url("../img/gallery/try.png") no-repeat center center/cover;
+  height: 80vh;
+  padding: 1rem 1.5rem; }
+  #home-gallery .gallery-grid {
+    padding-top: 0.8rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1.3rem; }
+    #home-gallery .gallery-grid .gallery-grid-item img {
+      border: 1px solid #ccc;
+      height: 100%; }
+      #home-gallery .gallery-grid .gallery-grid-item img:hover {
+        filter: opacity(90%); }
+
+#footer {
+  background: #000;
+  height: 5rem;
+  color: #fff;
+  border-top: 2px solid #0e2f44; }
+  #footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem; }
+    #footer .footer-content .social .fab {
+      box-sizing: content-box;
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      #footer .footer-content .social .fab:hover {
+        background: #0e2f44;
+        cursor: pointer; }
