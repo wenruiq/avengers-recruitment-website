@@ -316,11 +316,11 @@ img {
         filter: opacity(90%); }
 
 #events-a {
-  background: url("../img/events/23121s.jpeg") no-repeat 34% center/cover; }
+  background: url("../img/events/events-bg.jpeg") no-repeat 34% center/cover; }
 
 #contact-a .form-grid {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email' 'subject phone' 'message message' 'recaptcha recaptcha';
   grid-gap: 1rem;
   margin-bottom: 1.2rem; }
   #contact-a .form-grid .name-input {
@@ -338,14 +338,10 @@ img {
     background-color: #ccc;
     padding: 0.8rem 1rem; }
 
-#contact-a .recaptcha {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 #contact-a button[type='submit'] {
   width: 50%;
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  margin-bottom: 2rem; }
 
 #footer {
   background: #000;

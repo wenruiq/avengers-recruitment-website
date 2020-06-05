@@ -255,7 +255,8 @@ img {
       grid-template-areas:
         'name email'
         'subject phone'
-        'message message';
+        'message message'
+        'recaptcha recaptcha';
       grid-gap: 1rem;
       margin-bottom: 1.2rem;
 
@@ -282,15 +283,10 @@ img {
       }
     }
 
-    .recaptcha {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
     button[type='submit'] {
       width: 50%;
       padding: 1rem 0;
+      margin-bottom: 2rem;
     }
   }
 }
