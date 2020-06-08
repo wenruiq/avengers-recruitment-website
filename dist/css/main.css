@@ -420,6 +420,8 @@ img {
       display: none; }
     #header-inner .navbar li {
       padding: 1rem 1.5rem; }
+  #header #contact-a .form-grid .text-input {
+    padding: 0.8rem 0.75rem; }
   #home-members {
     padding: 1rem 1rem; }
     #home-members p {
@@ -482,7 +484,6 @@ img {
   #contact-a .lead {
     margin-bottom: 1.5rem; }
   #contact-a .form-grid .text-input {
-    background-color: #ccc;
     padding: 0.8rem 0.75rem; }
   #footer {
     height: 7.5rem; }

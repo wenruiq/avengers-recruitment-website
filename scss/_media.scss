@@ -84,6 +84,7 @@
   }
 }
 
+// Bigger Smartphones
 @media (max-width: 680px) {
   #header {
     &-home {
@@ -121,6 +122,10 @@
           padding: 1rem 1.5rem;
         }
       }
+    }
+    
+    #contact-a .form-grid .text-input {
+      padding: 0.8rem 0.75rem;
     }
   }
 
@@ -232,7 +237,6 @@
   }
 
   #contact-a .form-grid .text-input {
-    background-color: #ccc;
     padding: 0.8rem 0.75rem;
   }
 
