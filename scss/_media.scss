@@ -123,10 +123,6 @@
         }
       }
     }
-    
-    #contact-a .form-grid .text-input {
-      padding: 0.8rem 0.75rem;
-    }
   }
 
   #home-members {
@@ -139,6 +135,14 @@
       grid-template-columns: 1fr 1fr;
       grid-gap: 1.5rem;
     }
+  }
+
+  #home-gallery .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #contact-a .form-grid .text-input {
+    padding: 0.8rem 0.75rem;
   }
 }
 

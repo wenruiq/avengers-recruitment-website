@@ -213,7 +213,7 @@ img {
   // Home Gallery
   &-gallery {
     background: $gallery-bg no-repeat center center/cover;
-    padding: 1rem 1.5rem 3rem 1.5rem;
+    padding: 1rem 1.5rem 8rem 1.5rem;
 
     .gallery-grid {
       padding-top: 0.8rem;
@@ -240,6 +240,7 @@ img {
 #events {
   &-a {
     background: $events-bg no-repeat 34% center/cover;
+    padding-bottom: 7rem;
   }
 }
 

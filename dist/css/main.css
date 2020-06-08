@@ -297,7 +297,7 @@ img {
 
 #home-gallery {
   background: url("../img/home/gallery-bg.png") no-repeat center center/cover;
-  padding: 1rem 1.5rem 3rem 1.5rem; }
+  padding: 1rem 1.5rem 8rem 1.5rem; }
   #home-gallery .gallery-grid {
     padding-top: 0.8rem;
     display: grid;
@@ -312,7 +312,8 @@ img {
         filter: opacity(90%); }
 
 #events-a {
-  background: url("../img/events/events-bg.jpeg") no-repeat 34% center/cover; }
+  background: url("../img/events/events-bg.jpeg") no-repeat 34% center/cover;
+  padding-bottom: 7rem; }
 
 #contact-a .form-grid {
   display: grid;
@@ -420,15 +421,17 @@ img {
       display: none; }
     #header-inner .navbar li {
       padding: 1rem 1.5rem; }
-  #header #contact-a .form-grid .text-input {
-    padding: 0.8rem 0.75rem; }
   #home-members {
     padding: 1rem 1rem; }
     #home-members p {
       margin-bottom: 1rem; }
     #home-members .heroes {
       grid-template-columns: 1fr 1fr;
-      grid-gap: 1.5rem; } }
+      grid-gap: 1.5rem; }
+  #home-gallery .gallery-grid {
+    grid-template-columns: 1fr 1fr; }
+  #contact-a .form-grid .text-input {
+    padding: 0.8rem 0.75rem; } }
 
 @media (max-width: 500px) {
   .section-title {

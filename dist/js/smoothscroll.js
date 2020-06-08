@@ -8,5 +8,18 @@ $('#navbar a, .btn').on('click', function (e) {
       },
       800
     );
+
+    const navClass = hash.substring(1);
+    $('.index, .home-members, .home-work, .home-gallery').removeClass(
+      'current'
+    );
+    $(`.${navClass}`).addClass('current');
   }
+});
+
+window.addEventListener('load', function () {
+  const hash = window.location.hash.replace('#', '');
+  $('.index, .home-members, .home-work, .home-gallery').removeClass('current');
+
+  $(`.${hash}`).addClass('current');
 });
