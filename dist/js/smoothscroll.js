@@ -18,8 +18,11 @@ $('#navbar a, .btn').on('click', function (e) {
 });
 
 window.addEventListener('load', function () {
-  const hash = window.location.hash.replace('#', '');
-  $('.index, .home-members, .home-work, .home-gallery').removeClass('current');
-
-  $(`.${hash}`).addClass('current');
+  if (window.location.hash != '') {
+    const hash = window.location.hash.replace('#', '');
+    $('.index, .home-members, .home-work, .home-gallery').removeClass(
+      'current'
+    );
+    $(`.${hash}`).addClass('current');
+  }
 });

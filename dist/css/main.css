@@ -402,7 +402,7 @@ img {
   #home-work .villains .bio p {
     padding-bottom: 2rem; }
   #events-a {
-    padding: 1rem 1rem; } }
+    padding: 1rem 1rem 7rem 1rem; } }
 
 @media (max-width: 680px) {
   #header-home #logo {
@@ -428,6 +428,9 @@ img {
     #home-members .heroes {
       grid-template-columns: 1fr 1fr;
       grid-gap: 1.5rem; }
+  #home-work .villains .villain-gif {
+    height: 300px;
+    width: 450px; }
   #home-gallery .gallery-grid {
     grid-template-columns: 1fr 1fr; }
   #contact-a .form-grid .text-input {
