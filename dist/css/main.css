@@ -372,6 +372,8 @@ img {
     #header-home .navbar {
       font-size: 0.79rem;
       height: 70px; }
+      #header-home .navbar li {
+        padding: 1rem 1.5rem; }
     #header-home .header-content h1 {
       font-size: 3rem; }
     #header-home .header-content p {
@@ -401,6 +403,31 @@ img {
   #events-a {
     padding: 1rem 1rem; } }
 
+@media (max-width: 680px) {
+  #header-home #logo {
+    display: none; }
+  #header-home .navbar li {
+    padding: 1rem 1.5rem; }
+  #header-home .header-content h1 {
+    font-size: 3rem; }
+  #header-home .header-content p {
+    font-size: 0.975rem; }
+  #header-home .header-content a {
+    padding: 0.6rem 1.5rem; }
+  #header-inner {
+    height: 4.5rem; }
+    #header-inner #logo {
+      display: none; }
+    #header-inner .navbar li {
+      padding: 1rem 1.5rem; }
+  #home-members {
+    padding: 1rem 1rem; }
+    #home-members p {
+      margin-bottom: 1rem; }
+    #home-members .heroes {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1.5rem; } }
+
 @media (max-width: 500px) {
   .section-title {
     font-size: 2rem; }
@@ -416,6 +443,8 @@ img {
       position: absolute;
       top: 50px;
       background-color: transparent; }
+      #header-home .navbar li {
+        padding: 1rem 3rem; }
     #header-home #logo {
       display: none; }
     #header-home .header-content {
@@ -429,6 +458,8 @@ img {
       position: absolute;
       top: 50px;
       background-color: transparent; }
+      #header-inner .navbar li {
+        padding: 1rem 3rem; }
     #header-inner #logo {
       display: none; }
   #home-gallery .gallery-grid,

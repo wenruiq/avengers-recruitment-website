@@ -12,6 +12,9 @@
       .navbar {
         font-size: 0.79rem;
         height: 70px;
+        li {
+          padding: 1rem 1.5rem;
+        }
       }
 
       .header-content {
@@ -81,6 +84,59 @@
   }
 }
 
+@media (max-width: 680px) {
+  #header {
+    &-home {
+      #logo {
+        display: none;
+      }
+
+      .navbar {
+        li {
+          padding: 1rem 1.5rem;
+        }
+      }
+
+      .header-content {
+        h1 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 0.975rem;
+        }
+        a {
+          padding: 0.6rem 1.5rem;
+        }
+      }
+    }
+
+    &-inner {
+      height: 4.5rem;
+
+      #logo {
+        display: none;
+      }
+      .navbar {
+        li {
+          padding: 1rem 1.5rem;
+        }
+      }
+    }
+  }
+
+  #home-members {
+    padding: 1rem 1rem;
+
+    p {
+      margin-bottom: 1rem;
+    }
+    .heroes {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1.5rem;
+    }
+  }
+}
+
 // Smartphones
 @media (max-width: 500px) {
   .section-title {
@@ -102,6 +158,9 @@
         position: absolute;
         top: 50px;
         background-color: transparent;
+        li {
+          padding: 1rem 3rem;
+        }
       }
       #logo {
         display: none;
@@ -120,6 +179,9 @@
         position: absolute;
         top: 50px;
         background-color: transparent;
+        li {
+          padding: 1rem 3rem;
+        }
       }
       #logo {
         display: none;
