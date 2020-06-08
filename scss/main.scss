@@ -140,10 +140,8 @@ img {
   // Home Members
   &-members {
     background: $members-bg no-repeat center center/cover;
-    height: 90vh;
 
     .heroes {
-      padding: 0 10rem;
       display: grid;
       grid-gap: 5rem;
       grid-template-columns: repeat(3, 1fr);
@@ -166,7 +164,6 @@ img {
   // Home Work
   &-work {
     background: $work-bg no-repeat top center/cover;
-    height: 100vh;
 
     .villains {
       display: grid;
@@ -216,8 +213,7 @@ img {
   // Home Gallery
   &-gallery {
     background: $gallery-bg no-repeat center center/cover;
-    height: 80vh;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem 3rem 1.5rem;
 
     .gallery-grid {
       padding-top: 0.8rem;
@@ -322,3 +318,5 @@ img {
     }
   }
 }
+
+@import 'media';

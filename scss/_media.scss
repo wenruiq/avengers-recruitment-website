@@ -1,0 +1,189 @@
+// Tablets & Smaller
+@media (max-width: 850px) {
+  #header {
+    &-home {
+      height: 30rem;
+
+      #logo {
+        width: 45px;
+        height: 40px;
+      }
+
+      .navbar {
+        font-size: 0.79rem;
+        height: 70px;
+      }
+
+      .header-content {
+        h1 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 0.975rem;
+        }
+        a {
+          padding: 0.6rem 1.5rem;
+        }
+      }
+    }
+
+    &-inner {
+      height: 4.5rem;
+
+      #logo {
+        width: 45px;
+        height: 40px;
+      }
+      .navbar {
+        font-size: 0.79rem;
+        height: 70px;
+      }
+    }
+  }
+
+  #home {
+    &-members {
+      .heroes {
+        img {
+          height: 120px;
+          width: 120px;
+        }
+      }
+    }
+
+    &-work {
+      .villains {
+        .villain-info {
+          grid-template-areas:
+            'villaingif villaingif'
+            'bio bio';
+        }
+        .villain-gif {
+          grid-area: villaingif;
+          justify-self: center;
+          width: 600px;
+          height: 400px;
+        }
+
+        .bio {
+          p {
+            padding-bottom: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  #events {
+    &-a {
+      padding: 1rem 1rem;
+    }
+  }
+}
+
+// Smartphones
+@media (max-width: 500px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  #header {
+    &-home {
+      height: 10rem;
+      .navbar {
+        font-size: 0.79rem;
+        height: 70px;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        background-color: transparent;
+      }
+      #logo {
+        display: none;
+      }
+      .header-content {
+        display: none;
+      }
+    }
+
+    &-inner {
+      height: 10rem;
+      .navbar {
+        font-size: 0.79rem;
+        height: 70px;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        background-color: transparent;
+      }
+      #logo {
+        display: none;
+      }
+    }
+  }
+
+  #home-gallery .gallery-grid,
+  #events-a .grid-showcase {
+    grid-template-columns: 1fr;
+  }
+
+  #home-members {
+    padding: 1rem 1rem;
+
+    p {
+      margin-bottom: 1rem;
+    }
+    .heroes {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1.5rem;
+    }
+  }
+
+  #home-work {
+    .villains {
+      .villain-gif {
+        height: 200px;
+        width: 300px;
+      }
+
+      .bio {
+        display: none;
+      }
+    }
+  }
+
+  #events-a {
+    .lead {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  #contact-a {
+    .lead {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  #contact-a .form-grid .text-input {
+    background-color: #ccc;
+    padding: 0.8rem 0.75rem;
+  }
+
+  #footer {
+    height: 7.5rem;
+
+    .footer-content {
+      flex-direction: column;
+      height: 7rem;
+
+      p {
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+}
