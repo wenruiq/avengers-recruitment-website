@@ -14,6 +14,23 @@
 </p>
 </p>
 
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Section Example](#section-example)
+  * [Contact Form](#contact-form)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Installation](#installation)
+  * [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+
+
+  
 ## About the Project
 
 This project is a template for websites that serve to promote any businesses (e.g. services, recruitments)
@@ -32,6 +49,8 @@ Messages could be received through a simple contact form
 * [Sass](https://sass-lang.com/)
 * [jQuery](https://jquery.com/)
 * [Lightbox](https://lokeshdhakar.com/projects/lightbox2/)
+
+
 
 ## Getting Started
 
@@ -57,9 +76,13 @@ npm run sass
 ```
 2. Code away!
 
+
+
 ## Roadmap
 
 See the [open issues](https://github.com/wenruiq/avengers-recruitment-website/issues) for a list of proposed features (and known issues)
+
+
 
 ## Contributing
 
@@ -71,8 +94,12 @@ The open source community is such an amazing place for us to be inspired, learn,
 4. Push to the Branch (`git push origin feature/AmazingFeatures`)
 5. Open a Pull Request
 
+
+
 ## License
 Distributed under the **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
+
 
 ## Contact
 
