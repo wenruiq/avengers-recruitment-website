@@ -1,11 +1,11 @@
 <p align="center">
 
 <img src="http://g.recordit.co/BRo0oHeiKC.gif" width="650px"/>
-<h3 align="center">Avengers Recruitment Website</h3>
+<h3 align="center">Avengers Assemble</h3>
 <p align="center">
   A fanmade website recruiting superheroes to join the Avengers
   </br>
-  <a href="https://avengers-recruitment.netlify.app"><strong>View Demo »</strong></a>
+  <a href="https://avengers-assemble-fandom.netlify.app"><strong>View Demo »</strong></a>
   </br>
   </br>
   <a href="https://github.com/wenruiq/avengers-recruitment-website">Explore the docs</a> · 
