@@ -56,6 +56,7 @@ img {
   top: 0px;
   padding: 0 1.5rem;
   transition: 0.5s;
+  z-index: 999;
 
   &.top {
     background-color: transparent;
@@ -111,6 +112,8 @@ img {
       align-items: center;
       justify-content: center;
       height: 100%;
+      z-index: 99;
+      position: relative;
 
       h1 {
         font-size: 4rem;
@@ -118,9 +121,7 @@ img {
       }
     }
 
-    * {
-      z-index: 99;
-    }
+
   }
 
   // Inner pages
