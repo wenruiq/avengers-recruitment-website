@@ -1,7 +1,7 @@
 <p align="center">
 
 <img src="http://g.recordit.co/BRo0oHeiKC.gif" width="650px"/>
-<h3 align="center">Avengers Recruitment Website</h3>
+<h3 align="center">Avengers Assemble</h3>
 <p align="center">
   A fanmade website recruiting superheroes to join the Avengers
   </br>
