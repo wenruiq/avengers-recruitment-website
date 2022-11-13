@@ -5,7 +5,7 @@
 <p align="center">
   A fanmade website recruiting superheroes to join the Avengers
   </br>
-  <a href="https://jolly-curie-7e584a.netlify.app"><strong>View Demo »</strong></a>
+  <a href="https://avengers-recruitment.netlify.app"><strong>View Demo »</strong></a>
   </br>
   </br>
   <a href="https://github.com/wenruiq/avengers-recruitment-website">Explore the docs</a> · 
