@@ -58,11 +58,11 @@
       .villains {
         .villain-info {
           grid-template-areas:
-            'villaingif villaingif'
+            'villainwebm villainwebm'
             'bio bio';
         }
-        .villain-gif {
-          grid-area: villaingif;
+        .villain-webm {
+          grid-area: villainwebm;
           justify-self: center;
           width: 600px;
           height: 400px;
@@ -139,7 +139,7 @@
   
     #home-work {
     .villains {
-      .villain-gif {
+      .villain-webm {
         height: 300px;
         width: 450px;
       }
@@ -231,7 +231,7 @@
 
   #home-work {
     .villains {
-      .villain-gif {
+      .villain-webm {
         height: 200px;
         width: 300px;
       }

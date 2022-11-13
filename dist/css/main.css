@@ -215,7 +215,7 @@ img {
         border-color: #ccc; }
 
 #header-home {
-  background: url("../img/home/showcase-bg.jpg") no-repeat top center/cover;
+  background: url("../img/home/showcase-bg.webp") no-repeat top center/cover;
   height: 100vh;
   position: relative; }
   #header-home::before {
@@ -239,14 +239,14 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/inner-nav-bg.jpg") no-repeat 50%/cover;
+  background: url("../img/inner-nav-bg.webp") no-repeat 50%/cover;
   height: 6.5rem;
   border-bottom: 3px solid #0e2f44; }
   #header-inner * {
     z-index: 99; }
 
 #home-members {
-  background: url("../img/home/members-bg.jpg") no-repeat center center/cover; }
+  background: url("../img/home/members-bg.webp") no-repeat center center/cover; }
   #home-members .heroes {
     display: grid;
     grid-gap: 5rem;
@@ -262,7 +262,7 @@ img {
         width: 200px; }
 
 #home-work {
-  background: url("../img/home/work-bg.jpg") no-repeat top center/cover; }
+  background: url("../img/home/work-bg.webp") no-repeat top center/cover; }
   #home-work .villains {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -297,7 +297,7 @@ img {
         width: 100%; }
 
 #home-gallery {
-  background: url("../img/home/gallery-bg.png") no-repeat center center/cover;
+  background: url("../img/home/gallery-bg.webp") no-repeat center center/cover;
   padding: 1rem 1.5rem 8rem 1.5rem; }
   #home-gallery .gallery-grid {
     padding-top: 0.8rem;
@@ -313,12 +313,12 @@ img {
         filter: opacity(90%); }
 
 #events-a {
-  background: url("../img/events/events-bg.jpeg") no-repeat 34% center/cover;
+  background: url("../img/events/events-bg.webp") no-repeat 34% center/cover;
   padding-bottom: 7rem; }
 
 #contact-a .form-grid {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message' 'recaptcha recaptcha';
+  grid-template-areas: 'name email' 'subject phone' 'message message' 'recaptcha recaptcha';
   grid-gap: 1rem;
   margin-bottom: 1.2rem; }
   #contact-a .form-grid .name-input {
@@ -394,9 +394,9 @@ img {
     height: 120px;
     width: 120px; }
   #home-work .villains .villain-info {
-    grid-template-areas: 'villaingif villaingif' 'bio bio'; }
-  #home-work .villains .villain-gif {
-    grid-area: villaingif;
+    grid-template-areas: 'villainwebm villainwebm' 'bio bio'; }
+  #home-work .villains .villain-webm {
+    grid-area: villainwebm;
     justify-self: center;
     width: 600px;
     height: 400px; }
@@ -429,7 +429,7 @@ img {
     #home-members .heroes {
       grid-template-columns: 1fr 1fr;
       grid-gap: 1.5rem; }
-  #home-work .villains .villain-gif {
+  #home-work .villains .villain-webm {
     height: 300px;
     width: 450px; }
   #home-gallery .gallery-grid {
@@ -481,7 +481,7 @@ img {
     #home-members .heroes {
       grid-template-columns: 1fr 1fr;
       grid-gap: 1.5rem; }
-  #home-work .villains .villain-gif {
+  #home-work .villains .villain-webm {
     height: 200px;
     width: 300px; }
   #home-work .villains .bio {
